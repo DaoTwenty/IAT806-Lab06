@@ -29,7 +29,7 @@ async function setup() {
   createCanvas(1600, 900);
 
   // create background image
-  bg = await loadImage("assets/background.png");
+  bg = await loadImage("assets/background.jpg");
 
   // modes
   angleMode(DEGREES);
